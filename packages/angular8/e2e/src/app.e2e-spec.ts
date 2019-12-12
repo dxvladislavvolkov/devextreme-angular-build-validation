@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('angular8 app is running!');
+    expect(page.getText()).toEqual('button text\nColumn\ngrid-item');
   });
 
   afterEach(async () => {
