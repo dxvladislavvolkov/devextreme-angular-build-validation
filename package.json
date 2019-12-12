@@ -1,9 +1,6 @@
 {
   "name": "root",
   "private": true,
-  "scripts": {
-    "install": ""
-  },
   "devDependencies": {
     "lerna": "^3.19.0"
   }
