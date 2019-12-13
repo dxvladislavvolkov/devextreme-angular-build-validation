@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getText()).toEqual('button text\nColumn\ngrid-item');
+    expect(page.getText()).toEqual('button text\nColumn\ngrid-item\nyes');
   });
 
   afterEach(async () => {

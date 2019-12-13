@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { DxButtonComponent } from 'devextreme-angular';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular9-ivy-disabled';
+
+  @ViewChild(DxButtonComponent, { static: true })
+  buttonComponent: DxButtonComponent;
 }
